@@ -41,7 +41,7 @@
 <body class="theme-1">
   <div class="layout-container">
     <!-- top navbar-->
-    <header style="z-index:400; margin-left: 170px;" class="header-container">
+    <header style="z-index:400; margin-left: 96px;" class="header-container">
       <nav>
         <ul class="visible-xs visible-sm">
           <li><a id="sidebar-toggler" href="#" class="menu-link menu-link-slide"><span><em></em></span></a></li>
@@ -54,38 +54,36 @@
         
         <div class="pull-right pt-lg text-muted hidden"><em class="ion-close-round"></em></div>
         <a href="#" class="">
-          <img style="width:50px;" src="../natter/img/logo.png" data-svg-replace="../natter/img/logo.svg" alt="Logo"></a>
+          <img style="width:50px;" src="../natter/img/logo.png" data-svg-replace="../natter/img/logo.svg" alt="Logo">  </a>
+          <a style="font-size:15px; color:white; margin-left:10px;" href="#">Open last updated</a>
        
 
         </ul>
-<button type="button" style="position:absolute; top:33px; right:20px; width: 60px; height: 60px; " class="btn btn-raised btn-circle btn-success ripple pull-right"><em class="ion-plus-round icon-lg"></em> <span class="md-ripple"></span></button>
-       
+<button type="button" data-toggle="modal" data-target=".bs-example-modal-lg" style="position:absolute; top:33px; right:20px; width: 60px; height: 60px; " class="btn btn-raised btn-circle btn-success ripple pull-right"><em class="ion-plus-round icon-lg"></em> <span class="md-ripple"></span></button>
+  
       </nav>
     </header>
     <!-- sidebar-->
-    <aside class="sidebar-container" style="background-color:#2c2f40;   width:170px; border-right:.5px solid rgba(0, 0, 0,.2);">
+    <aside class="sidebar-container" style="background-color:#2c2f40;   width:96px; border-right:.5px solid rgba(0, 0, 0,.2);">
     
       <div class="sidebar-content">
-        <div class="sidebar-toolbar text-center">
-          <a href="#"><img src="../natter/img/user/01.jpg" alt="Profile" class="img-circle thumb64"></a>
-          <div class="mt">Welcome, Willie Webb</div>
+        <div class="text-center">
+          <a href="#"><img src="../natter/img/user/01.jpg" alt="Profile" class=" thumb96"></a>
+          <div class="mt">Ola Awon Arami</div>
         </div>
         <nav class="sidebar-nav">
           <ul>
-            <li>
-              <a href="index.html" class="ripple">
-                <em class="ion-ios-color-filter icon-lg"></em> <span style="font-size:1.1em; margin-left:15px;">Projects</span></a>
+            <li >
+              <a href="#" style="height: 60px; padding:10px 30px;" class="ripple">
+                <em style="font-size:40px;" class="ion-home icon-lg"></em> </a>
             </li>
-            <li>
-              <a href="search.html" class="ripple">
-                <em class="ion-ios-pulse-strong icon-lg"></em>
-                <span style="font-size:1.1em; margin-left:15px;">Activities</span></a>
+            <li >
+              <a href="#" style="height: 60px; padding:10px 30px;" class="ripple">
+                <em style="font-size:40px;" class="ion-cube icon-lg"></em> </a>
             </li>
-
-
-            <li>
-              <a href="message.html" class="ripple">
-                <em class="ion-android-mail icon-lg"></em> <span style="font-size:1.1em; margin-left:15px;">Messages</span></a>
+             <li >
+              <a href="#" style="height: 60px; padding:10px 30px;" class="ripple">
+                <em style="font-size:40px;" class="ion-ios-people icon-lg"></em> </a>
             </li>
 
           </ul>
@@ -93,19 +91,31 @@
       </div>
     </aside>
 
-    <aside class="sidebar-container" style="margin-left: 170px; width:160px; ">
+    <aside class="sidebar-container" style="margin-left: 96px; width:160px; ">
       <div class="sidebar-header">
         <div class="pull-right pt-lg text-muted hidden"><em class="ion-close-round"></em></div>
       </div>
       <div class="sidebar-content">
 
-        <nav class="sidebar-nav">
+       
+          <div class="btn-group" style="width: 100%;" >
+                            <button type="button" data-toggle="dropdown"  class="btn ripple btn-info btn-block btn-sm">Projects <span class="ion-arrow-down-b"></span></button>
+                            
+                            <ul role="menu" class="dropdown-menu">
+                              <li><a href="#"><em class="ion-cube icon-lg"></em> Sample Project</a></li>
+                              <li><a href="#"><em class="ion-cube icon-lg"></em> Sample Project</a></li>
+                              <li><a href="#"><em class="ion-cube icon-lg"></em> Sample Project</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#"><em class="ion-plus icon-lg"></em> Add new project</a></li>
+                            </ul>
+                          </div>
+                           <nav class="sidebar-nav">
           <ul>
             <li>
-              <a href="index.html" style="height: 120px;" class="ripple">
+              <a href="index.html" style="height: 120px; padding-top:10px;" class="ripple  text-center">
                 <span class="edge blue" style="background-color: #aece3c"></span>
-                <div style="border-radius:60px; border:2px solid white; width: 60px; text-align:center; padding: 5px;  margin-top:5px ;margin-left:32.5px">
-                80 </div> <span style="font-size:1.0em; margin-left:15px;">Sample Projects</span></a>
+               <em style="font-size:40px;" class="ion-cube icon-lg"></em>
+               <br> <span style="font-size:1.0em; margin-left:15px;">Sample Projects</span></a>
             </li>
             
 
@@ -115,7 +125,7 @@
     </aside>
     <div class="sidebar-layout-obfuscator"></div>
     <!-- Main section-->
-    <main class="main-container" style=" background-color:#eceff3; margin-left: 320px; min-height: 600px; padding:50px; padding-top:20px;">
+    <main class="main-container" style=" background-color:#eceff3; margin-left: 256px; min-height: 600px; padding:50px; padding-top:20px;">
       <div class="row" style="">
 <div class="col-xs-12" style="padding-bottom:20px;">
   <div class="btn-group">
@@ -165,6 +175,7 @@
                 
                 </div>
                 <div  style="position:absolute; bottom:0px; right:40px; " >
+                   <div id="devs">
                   <a href="#" style="position:relative; left:6px;  bottom:6px;"><img src="../natter/img/user/01.jpg" alt="Profile" class="img-circle thumb48"></a>
                  <br>
                  
@@ -173,7 +184,8 @@
                  
                 <a href="#" style="position:relative; left:6px;  bottom:6px;"><img src="../natter/img/user/01.jpg" alt="Profile" class="img-circle thumb48"></a>
                 <br>
-                  <button type="button" style="  width: 60px; height: 60px; " class="btn btn-raised btn-circle btn-default ripple pull-right"><em class="ion-ios-people
+               </div>
+                  <button id="devsbtn" type="button" style="  width: 60px; height: 60px; " class="btn btn-raised btn-circle btn-default ripple pull-right"><em class="ion-ios-people
                   
                   
                    icon-lg"></em> <span class="md-ripple"></span></button>
@@ -207,39 +219,198 @@
 
 <!--modal area -->
 <!--cool-->
-      <div tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" class="modal fade bs-example-modal-sm" style="display: none;">
-        <div class="modal-dialog modal-sm">
+      <div tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" class="modal fade bs-example-modal-lg" style="display: none;">
+        <div class="modal-dialog modal-lg">
 
-          <div class="modal-content bg-grey-200">
-            <div class="modal-header" style="border-bottom:none;">
-              <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true"><em class="ion-close-round  icon-lg"></em></span></button>
+          <div class="modal-content bg-white">
+            
+            <div class="modal-body" style="padding:0;" >
+                 <button style="margin:10px;" type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true"><em class="ion-close-round   "></em></span></button>
+<div>
+                      <!-- Nav tabs-->
+                      <ul role="tablist" style="background:#242631; color:#c5cae9; padding: 0px 10px;  font-size: 14px;
+    font-weight: 700;" class="nav nav-tabs">
+                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                       
+                          
+                        
+                      </ul>
+                      <!-- Tab panes-->
+                      <div class="tab-content">
+                        <div id="home" role="tabpanel" class="tab-pane active">
+                          
+                          <div class="row" style="padding:40px 30px; color:#727272; font-size:15px;">
+<div class="col-md-8">
+  <div class="col-md-11">
+    <!--forms area so cool-->
+ <div class="mda-form-group float-label">
+                      <div class="mda-form-control">
+                        <input required="" tabindex="0" aria-required="true" aria-invalid="true" class="form-control">
+                        <div class="mda-form-control-line"></div>
+                        <label>Project Name</label>
+                      </div>
+                    </div>
 
-            </div>
-            <div class="modal-body ph-lg">
+<div class="form-group mv-xl">
+                        <label class="switch switch-info">
+                          <input type="checkbox" checked="checked"><span></span>
+                        </label>Set Deadline
+                      </div>
+<div class="row mv-xl">
+  <div class="col-md-6">
+                       <div class="mda-form-group float-label">
+                      <div class="mda-form-control">
+                        <label>Deadline</label>
+
+                        <input required="" type="date" tabindex="0" aria-required="true" aria-invalid="true" class="form-control">
+                        <div class="mda-form-control-line"></div>
+                        
+                      </div>
+                    </div></div>
+                    <div class="col-md-6">
+                      <div class="mda-form-group float-label">
+                      <div class="mda-form-control">
+                         <label>Time</label>
+                        <input required="" type="time" tabindex="0" aria-required="true" aria-invalid="true" class="form-control">
+                        <div class="mda-form-control-line"></div>
+                       </div>
+                        </div>
+                     </div>
+                    </div>
+                   
+                      
+
+<div class="row mv-xl">
+<div class="col-md-4">
+                        <label class="switch switch-info">
+                          <input type="checkbox" checked="checked"><span></span>
+                        </label>Set Deadline
+                      </div>
+                      <div class="col-md-4">
+                        <label class="switch switch-info">
+                          <input type="checkbox" checked="checked"><span></span>
+                        </label>Set Deadline
+                      </div>
+                      <div class="col-md-4">
+                        <label class="switch switch-info">
+                          <input type="checkbox" checked="checked"><span></span>
+                        </label>Set Deadline
+                      </div>
+                    </div>
+                     </div>
 
 
-              <h4 class="text-muted">Create New Module</h4>
-              <div class="row">
-                <div class="col-sm-12">
-                  <input type="text" class="form-control" placeholder="Module Name">
-                  <span class="help-block">A block of help text </span>
-                </div>
-                <div class="col-sm-12">
-                  <input type="text" class="form-control" placeholder="Module Description">
-                  <span class="help-block">A block of help text </span>
-                </div>
-                <div class="col-sm-12">
-                  <input type="date" class="form-control" placeholder="Module Name">
-                  <span class="help-block">A block of help text </span>
-                </div>
-                <div class="col-sm-12">
-                  <button class="btn btn-md btn-success"> Next </button>
-                </div>
-              </div>
+  </div>
+  <div class="col-md-4">
+    <h6>Project Image</h6>
+                       <div class="card-item"><img  src="http://primusnote.org/tf-demo/primus/wp-content/uploads/sites/34/2016/12/sandstone-326x201.jpg" alt="MaterialImg" class="fw img-responsive">
+                   
+                  </div>
+                  <br>
 
-              <br>
+                  <a href="#" class="text-right" style="text-align:right; font-weight:bold;"> UPLOAD IMAGE </a>
+  </div>
 
-            </div>
+   
+                            </div>
+
+
+                        </div>
+                        <div id="profile" role="tabpanel" class="tab-pane">
+                          
+
+  <div class="row" style="padding:40px 30px; color:#727272; ">
+    <div class="col-md-6">
+      <div class="mda-list">
+                    <div class="mda-list-item"><img src="../natter/img/user/01.jpg" alt="List user" class="mda-list-item-img">
+                      <div class="mda-list-item-text">
+                        <div class="row">
+                          <div class="col-md-10"><h3><a href="#">Eric Graves</a></h3>
+                        <h4>Brunch this weekend?</h4></div>
+                          <div class="col-md-2"><label class="switch switch-info">
+                          <input type="checkbox" checked="checked"><span></span>
+                      
+                        </div>
+                        
+                        
+                       
+                    </div>
+                    </div>
+                    </div>
+                   
+
+                    <div class="mda-list-item"><img src="../natter/img/user/01.jpg" alt="List user" class="mda-list-item-img">
+                      <div class="mda-list-item-text">
+                        <div class="row">
+                          <div class="col-md-10"><h3><a href="#">Eric Graves</a></h3>
+                        <h4>Brunch this weekend?</h4></div>
+                          <div class="col-md-2"><label class="switch switch-info">
+                          <input type="checkbox" checked="checked"><span></span>
+                      
+                        </div>
+                        
+                        
+                       
+                    </div>
+                    </div>
+                    </div>
+                   
+                   
+                    </div> </div>
+                    <div class="col-md-6">
+                      <div class="mda-list">
+                     <div class="mda-list-item"><img src="../natter/img/user/01.jpg" alt="List user" class="mda-list-item-img">
+                      <div class="mda-list-item-text">
+                        <div class="row">
+                          <div class="col-md-10"><h3><a href="#">Eric Graves</a></h3>
+                        <h4>Brunch this weekend?</h4></div>
+                          <div class="col-md-2"><label class="switch switch-info">
+                          <input type="checkbox" checked="checked"><span></span>
+                      
+                        </div>
+                        
+                        
+                       
+                    </div>
+                    </div>
+                    </div>
+
+
+                     <div class="mda-list-item"><img src="../natter/img/user/01.jpg" alt="List user" class="mda-list-item-img">
+                      <div class="mda-list-item-text">
+                        <div class="row">
+                          <div class="col-md-10"><h3><a href="#">Eric Graves</a></h3>
+                        <h4>Brunch this weekend?</h4></div>
+                          <div class="col-md-2"><label class="switch switch-info">
+                          <input type="checkbox" checked="checked"><span></span>
+                      
+                        </div>
+                        
+                        
+                       
+                    </div>
+                    </div>
+                    </div>
+                    
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+
+
+                        </div>
+                        
+                      </div>
+                    </div>
+
+           
+            
+            <div class="modal-footer">
+                        <a href="#" class="button-link" style=" font-weight:bold;" id="project-close" data-dismiss="modal">CLOSE</a>
+                        <a href="#" class="button-link" style=" font-weight:bolder;" id="project-save">SAVE</a>
+                    </div>
+                     </div>
           </div>
           <!-- /.modal-content-->
         </div>
@@ -251,6 +422,18 @@
     <script src="../natter/js/vendor.js"></script>
     <!-- App script-->
     <script src="../natter/js/app.js"></script>
+    <script>
+  $(document).ready(function(){
+      $("#devs").hide();
+       
+    $("#devsbtn").mouseenter(function(){
+        $("#devs").fadeIn()();
+    });
+    $("#devsbtn").mouseleave(function(){
+        $("#devs").fadeOut();
+    });
+});
+    </script>
 </body>
 
 </html>
